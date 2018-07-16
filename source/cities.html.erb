@@ -1,0 +1,16 @@
+<div class="container text-center">
+
+  <h1>Here are our cities</h1>
+
+  <ul class="list-inline">
+    <% %w(Berlin Paris Amsterdam London).each do |city| %>
+      <li>
+        <img src="https://kitt.lewagon.com/placeholder/cities/<%= city %>" class="img-rounded" height="100px">
+        <h3><%= city.capitalize %></h3>
+      </li>
+    <% end %>
+
+  </ul>
+
+
+</div>
